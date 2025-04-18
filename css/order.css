@@ -1,0 +1,148 @@
+img{
+    height: 150px;
+    width: 1370px;
+}
+.card{
+    outline: 1px solid black;
+    border-radius: 50px;
+    width: 300px;
+    margin: 20px;
+}
+.img1{
+    height: 300px;
+    width: 300px;
+    padding: 20px;
+    border-radius: 50px;
+}
+.cards{
+    display:grid;
+    grid-template-columns:2fr 2fr 2fr 2fr;
+    margin: 10px;
+}
+#ibutton,#dbutton,#ibutton1,#dbutton1,#ibutton2,#dbutton2,#ibutton3,#dbutton3,#ibutton4,#dbutton4,#ibutton5,#dbutton5,#ibutton6,#dbutton6,#ibutton7,#dbutton7,#ibutton8,#dbutton8,#ibutton9,#dbutton9,#ibutton10,#dbutton10,#ibutton11,#dbutton11,#ibutton12,#dbutton12,#ibutton13,#dbutton13,#ibutton14,#dbutton14,#ibutton15,#dbutton15{
+    background-color:orangered;
+    border: none;
+    outline: none;
+    color: white;
+    padding-left: 15px;
+    padding-right:15px;
+    font-size: 20px;
+    border-radius: 20px;
+}
+.inner{
+    padding-left: 70px;
+}
+#ibutton:hover{
+    background-color:rgb(150, 42, 3);
+}
+#dbutton:hover{
+    background-color:rgb(252, 147, 109);
+    color: black;
+}
+#ibutton1:hover{
+    background-color:rgb(150, 42, 3);
+}
+#dbutton1:hover{
+    background-color:rgb(252, 147, 109);
+    color: black;
+}#ibutton2:hover{
+    background-color:rgb(150, 42, 3);
+}
+#dbutton2:hover{
+    background-color:rgb(252, 147, 109);
+    color: black;
+}#ibutton3:hover{
+    background-color:rgb(150, 42, 3);
+}
+#dbutton3:hover{
+    background-color:rgb(252, 147, 109);
+    color: black;
+}#ibutton4:hover{
+    background-color:rgb(150, 42, 3);
+}
+#dbutton4:hover{
+    background-color:rgb(252, 147, 109);
+    color: black;
+}#ibutton5:hover{
+    background-color:rgb(150, 42, 3);
+}
+#dbutton5:hover{
+    background-color:rgb(252, 147, 109);
+    color: black;
+}#ibutton6:hover{
+    background-color:rgb(150, 42, 3);
+}
+#dbutton6:hover{
+    background-color:rgb(252, 147, 109);
+    color: black;
+}#ibutton7:hover{
+    background-color:rgb(150, 42, 3);
+}
+#dbutton7:hover{
+    background-color:rgb(252, 147, 109);
+    color: black;
+}#ibutton8:hover{
+    background-color:rgb(150, 42, 3);
+}
+#dbutton8:hover{
+    background-color:rgb(252, 147, 109);
+    color: black;
+}#ibutton9:hover{
+    background-color:rgb(150, 42, 3);
+}
+#dbutton9:hover{
+    background-color:rgb(252, 147, 109);
+    color: black;
+}#ibutton10:hover{
+    background-color:rgb(150, 42, 3);
+}
+#dbutton10:hover{
+    background-color:rgb(252, 147, 109);
+    color: black;
+}#ibutton11:hover{
+    background-color:rgb(150, 42, 3);
+}
+#dbutton11:hover{
+    background-color:rgb(252, 147, 109);
+    color: black;
+}#ibutton12:hover{
+    background-color:rgb(150, 42, 3);
+}
+#dbutton12:hover{
+    background-color:rgb(252, 147, 109);
+    color: black;
+}#ibutton13:hover{
+    background-color:rgb(150, 42, 3);
+}
+#dbutton13:hover{
+    background-color:rgb(252, 147, 109);
+    color: black;
+}#ibutton14:hover{
+    background-color:rgb(150, 42, 3);
+}
+#dbutton14:hover{
+    background-color:rgb(252, 147, 109);
+    color: black;
+}#ibutton15:hover{
+    background-color:rgb(150, 42, 3);
+}
+#dbutton15:hover{
+    background-color:rgb(252, 147, 109);
+    color: black;
+}
+#bill_button{
+    margin-left:600px;
+    background-color: orangered;
+    color: white;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+}
+#bill_button:hover{
+    background-color: rgb(169, 48, 4);   
+}

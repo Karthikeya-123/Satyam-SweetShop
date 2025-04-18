@@ -1,0 +1,59 @@
+img{
+    height: 150px;
+    width: 1370px;
+}
+.bill{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+}
+.billpic img{
+    height:250px;
+    width: 250px;
+    margin-left: 50px;
+}
+table,tr,td{
+    border: 1px solid black;
+    border-radius: 20px;
+}
+.bill1{
+    margin-left: 400px;
+    font-size: 20px;
+}
+.pay{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 20px;
+}
+.details{
+    text-align: center;
+    margin-top: 100px;
+}
+input,textarea{
+    margin: 10px;
+    border-radius: 5px;
+    border-bottom: 1px solid black;
+    font-size: 15px;
+    background-color: rgb(225, 245, 238);
+}
+label,p{
+    font-size: 20px;
+    color: rgb(5, 5, 33);
+}
+.addr{
+    display: flex;
+    margin-left: 450px;
+}
+.submit{
+    margin: 10px;
+    background-color:orangered;
+    border: none;
+    outline: none;
+    color: white;;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 20px;
+}
+.submit:hover{
+    background-color:rgb(166, 46, 3);
+}

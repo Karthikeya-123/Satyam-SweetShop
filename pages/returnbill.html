@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/giftbill.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="head">
+        <img src="../pics/coverpage.jpg" alt="">
+    </div>
+    <nav class="navbar bg-body-tertiary">
+      <form class="container-fluid justify-content-start">
+        <a href="../pages/return.html"><button class="btn btn-outline-success me-2" style="margin-left:1150px;margin-top:10px;margin-bottom:10px;padding:10px;" type="button">Main button</button></a>
+      </form>
+  </nav>
+  <div class="bill">
+    <div class="bill1">
+        <h2 style="padding-left: 70px;">Bill</h2>
+        <table style="padding: 10px;">
+            <tr>
+                <th style="font-family: 'PT Serif', serif;padding:10px;">Quantity</th>
+                <th style="font-family: 'PT Serif', serif;padding:10px;">Price</th>
+            </tr>
+            <tr>
+                <td id="boxq" style="text-align: center;padding:10px;background-color:rgb(228, 247, 241);color:rgb(2, 2, 60);font-size:20px;"></td>
+                <td id="boxt" style="padding:10px;background-color:rgb(228, 247, 241);color:rgb(2, 2, 60);font-size:20px"></td>
+            </tr>
+        </table>
+    </div>
+    <div class="billpic"><img src="../pics/bill.png" alt=""></div>
+  </div>
+  <div class="pay">
+    <h3>Payments</h3>
+    <p><em>At Pracent We Have Only Cash On Delivery</em></p>
+    <p><em>For Any Queries For Payments Please Contact Us</em></p>
+  </div>
+  <div class="details">
+    <form action="" method="">
+      <div>
+        <h1>Customer Details</h1>
+      <label>Full Name : </label>
+      <input type="text" id="name" name="fullname" placeholder="enter your name*" value="" required />
+      </div>
+      <div>
+      <label>Phone number : </label>
+      <input type="tel" id="mobile" name="phoene number" placeholder="enter your phone number" value=""
+      pattern="[6-9]{1}[0-9]{9}" title="first digit between 6-9 and remaining 9 digits with 0-9" required />
+      </div>
+      <div>
+        <div class="addr">
+          <p>Deliver Address :<p>
+        <textarea class="text" maxlength="200" id="adress" rows="5" cols="25" placeholder="Plese enter the Deliver Adress" required></textarea><br>
+        </div>
+      </div>
+      <button class="submit" type="submit" onclick="placeOrder()" name="submit_form">Submit</button>
+      </form>
+  </div>
+<script>
+    const bill = JSON.parse(localStorage.getItem("bill"));
+    
+    if (bill) {
+        document.getElementById("boxq").innerText = bill.boxq;
+        document.getElementById("boxt").innerText = bill.boxt + " Rs";
+    } else {
+        document.body.innerHTML = "<h1>No Data Available</h1>";
+    }
+
+    function placeOrder(){
+      const name = document.getElementById("name").value;
+      const mobile=document.getElementById("mobile").value;
+      const adress=document.getElementById("adress").value;
+      if(name === "" || mobile === "" || adress === ""){
+        alert("plese fill the Details")
+      }
+      else{
+        alert("your Order has Been Placed Succesfully...!!")
+      }
+    }
+
+</script>
+</html>

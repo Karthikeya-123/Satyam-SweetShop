@@ -1,0 +1,124 @@
+img{
+    height: 150px;
+    width: 1370px;
+}
+.a,.c,.d,.e,.f,.g,.h,.i,.j,.k{
+    width:300px;
+    height:100px;
+}
+marquee{
+    margin-top: 20px;
+}
+.display{
+    text-align: center;
+    padding: 30px;
+}
+@keyframes appear{
+    from{
+        opacity: 0;
+        scale: 0.4;
+    }
+    to{
+        opacity: 1;
+        scale: 1;
+    }
+}
+.text,.about,.price,.last{
+    animation:appear linear;
+    animation-timeline:view();
+    animation-range: entry 0% cover 40%;
+    text-align: center;
+    font-family: 'PT Serif';
+}
+p{
+    font-size: 20px;
+}
+span{
+    color: rgb(4, 4, 225);
+}
+.return{
+    height:250px;
+    width: 250px;
+    margin-left: 200px;
+    border-radius: 150px;
+}
+.about{
+    display: flex;
+    margin-top: 50px;
+    text-align: left;
+    font-family:'PT Serif';
+}
+.txt{
+    padding-left: 200px;
+}
+.txt ul li{
+    font-size: 20px;
+}
+#ibutton,#dbutton{
+    margin: 20px;
+    background-color:orangered;
+    border: none;
+    outline: none;
+    color: white;
+    padding-left: 15px;
+    padding-right:15px;
+    font-size: 20px;
+    border-radius: 20px;
+}
+.buypic{
+    height: 250px;
+    width: 250px;
+    background:transparent;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+#bill_button{
+    background-color: orangered;
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    color: white;
+    font-size: 10px;
+    margin-top: 100px;
+    height: 30px;
+    margin-right: 200px;
+}
+.last{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+div button:hover{
+    background-color: rgb(186, 53, 4);
+}
+#ibutton:hover{
+    background-color:rgb(150, 42, 3);
+}
+#dbutton:hover{
+    background-color:rgb(252, 147, 109);
+    color: black;
+}
+.deliverpic{
+    height: 150px;
+    width: 200px;
+    background:transparent; 
+    margin-left: 100px;  
+}
+.delivery{
+    margin: 100px;
+    display: flex;
+}
+.del{
+    display: flex;
+}
+.last{
+    display: flex;
+    margin: 50px;
+}
+.div2{
+    display: flex;
+    flex-direction:column;
+}
+.div2 a button{
+    margin:0px;
+}

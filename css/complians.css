@@ -1,0 +1,47 @@
+img{
+    height: 150px;
+    width: 1370px;
+}
+.image{
+    height: 350px;
+    width:350px;
+}
+.phase{
+    display: flex;
+    margin-top: 10px;
+}
+.photo{
+    margin-left: 100px;
+    margin-top: 70px;
+}
+.text{
+    margin-left: 20px;
+    font-family: 'PT Serif';
+    font-size: 25px;
+}
+#btn{
+    background-color: rgb(224, 63, 4);
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 10px;
+    font-family: 'PT Serif';
+    font-size: 17px;
+    color: white;
+}
+#btn:hover{
+    background-color: rgb(168, 46, 2);
+
+}
+input:hover{
+    background-color: rgb(236, 110, 64);
+    color: black;
+}
+textarea{
+    font-family: 'PT Serif';
+    font-size: 20px;
+}
+span{
+    color: rgb(4, 4, 210);
+}
